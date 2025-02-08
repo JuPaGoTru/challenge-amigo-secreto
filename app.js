@@ -28,8 +28,8 @@ function visualizarNombres() {
 }
 
 function sortearAmigo() {
-    if (amigos.length < 1) {
-        alert('Por favor, ingrese al menos un amigo.');
+    if (amigos.length < 2) {
+        alert('Por favor, ingrese al menos dos amigos.');
         return;
     }
     let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
